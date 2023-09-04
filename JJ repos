@@ -188,6 +188,5 @@ source $HOME/.bash_profile
 
 
 ------------------------------------- 
-با کد زیر هم میتونید موجودی ولت خودتون رو ببنید  که به جای ایکس ها ادرس خودتون رو وارد کنید 
 
 celestia-appd q bank balances xxxxxxxxxxxxx
