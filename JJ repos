@@ -1,3 +1,4 @@
+hi
 
 for github
 
@@ -145,9 +146,3 @@ curl -s localhost:26657/status | grep block_height
 ---------------------------------------------------
 
 celestia-appd keys add $CELESTIA_WALLET
-
-
------------------------------------
-CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_WALLET -a) 
-echo $CELESTIA_ADDR
-
