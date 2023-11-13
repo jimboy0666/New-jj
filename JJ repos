@@ -117,9 +117,6 @@ sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 sudo systemctl enable celestia-appd
 
 ------------------------------------------------------------
-Press CTRL+C to stop the logs
-
--------------------------------------------------------------
 
 sudo systemctl stop celestia-appd
 
