@@ -1,4 +1,4 @@
-hi
+ahi
 
 for github
 
@@ -86,7 +86,7 @@ s/^pruning-interval *=.*/pruning-interval = \"$pruning_interval\"/" $HOME/.celes
 --------------------------------------------
 
 sed -i 's/snapshot-interval *=.*/snapshot-interval = 0/' $HOME/.celestia-app/config/app.toml
-
+cc tfyfy FF سلام c 
 ---------------------------------------------------
 celestia-appd tendermint unsafe-reset-all --home $HOME/.celestia-app
 
@@ -103,6 +103,8 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
 [Service]
   User=$USER
   ExecStart=$(which celestia-appd) start
+
+5
   Restart=on-failure
   RestartSec=3
   LimitNOFILE=65535
@@ -111,12 +113,7 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
 EOF
 
 ---------------------------------------------------
-sudo mv $HOME/celestia-appd.service /etc/systemd/system/
-
-----------------------------------------------------
-sudo systemctl enable celestia-appd
-
-------------------------------------------------------------
+sudo mv $HOME/celestia-appd.service /etc/systemd/system
 
 sudo systemctl stop celestia-appd
 
