@@ -97,11 +97,6 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
 [Service]
   User=$USER
   ExecStart=$(which celestia-appd) start
-
-5
-  Restart=on-failure
-  RestartSec=3
-  LimitNOFILE=65535
 [Install]
   WantedBy=multi-user.target
 EOF
