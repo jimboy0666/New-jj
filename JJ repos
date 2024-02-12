@@ -1,4 +1,4 @@
-ahi
+ji jiahi
 
 for github
 
@@ -96,9 +96,6 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
   After=network-online.target
 [Service]
   User=$USER
-  ExecStart=$(which celestia-appd) start
-[Install]
-  WantedBy=multi-user.target
 EOF
 
 sudo systemctl stop celestia-appd
