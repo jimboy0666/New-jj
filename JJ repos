@@ -94,4 +94,3 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
   After=network-online.target
 [Service]
   User=$USER
-EOF
