@@ -95,9 +95,3 @@ tee $HOME/celestia-appd.service > /dev/null <<EOF
 [Service]
   User=$USER
 EOF
-
-sudo systemctl stop celestia-appd
-
---------------------------------------------------------------
-
-cd $HOME
