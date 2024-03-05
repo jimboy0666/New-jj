@@ -88,5 +88,3 @@ cc tfyfy FF سلام c
 ---------------------------------------------------
 celestia-appd tendermint unsafe-reset-all --home $HOME/.celestia-app
 -------------------------------------------------------
-tee $HOME/celestia-appd.service > /dev/null <<EOF
-[Unit]
