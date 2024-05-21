@@ -75,6 +75,3 @@ pruning_keep_recent="100"
 pruning_interval="10"
 
 ------------------------------------------------------
-
-sed -i -e "s/^pruning *=.*/pruning = \"custom\"/;\
------------------------
