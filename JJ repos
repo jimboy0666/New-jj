@@ -70,7 +70,3 @@ s/^max-num-outbound-peers *=.*/max-num-outbound-peers = $max_num_outbound_peers/
 s/^max-connections *=.*/max-connections = $max_connections/" $HOME/.celestia-app/config/config.toml
 
 ------------------------------------------------
-pruning_keep_recent="100" 
-pruning_interval="10"
-
-------------------------------------------------------
