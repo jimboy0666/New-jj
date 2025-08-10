@@ -5,7 +5,6 @@ for github
 
 ------------------------------------------
 sudo apt update && sudo apt upgrade -y
--------------------------------------------------
 cd $HOME
 ver="1.18.3"
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
